@@ -1,0 +1,27 @@
+idea 1
+ {
+	cave explorer - move down each layer gets darker
+
+	ART:
+	-monsters, 6 different
+	-player, weapon, torch
+	-cave walls
+	-floor
+	-crate
+	-trap door
+	-obstacles/bits of rock, old doorways, broken walls etc
+
+	-monsters
+	-obstacles/gaps
+	-pitch black, torch can run out, refill at end of level, maybe in chests too 
+	-some swinging lights
+	-can find loot - +armour, attack, health potion, speed increase etc
+	-procedural gen
+	-set monsters on fire with, damages torch
+	-throw monsters in pit get reward
+
+extra
+	-binding of isaac mechanics?
+	-character customisation
+	-magic
+	-

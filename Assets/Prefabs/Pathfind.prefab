@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1108458910149618}
+  m_IsPrefabAsset: 1
+--- !u!1 &1108458910149618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4520926344482858}
+  - component: {fileID: 114627734780877992}
+  - component: {fileID: 114126209508302762}
+  m_Layer: 0
+  m_Name: Pathfind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4520926344482858
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1108458910149618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0027916, y: -0.075782955, z: -0.016113281}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114126209508302762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1108458910149618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e20a3c1df053f248aec23c9a9a2ead9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_pitSize: 0
+  m_tilePrefab: {fileID: 1344450781923156, guid: e95dc2bde5c620f4dbdf1cf92ad9a71b,
+    type: 2}
+  m_pathPrefab: {fileID: 1344450781923156, guid: 82aa89dce51cce54ead6b4261a8e893d,
+    type: 2}
+  m_start: {fileID: 1344450781923156, guid: 82aa89dce51cce54ead6b4261a8e893d, type: 2}
+  m_end: {fileID: 1344450781923156, guid: 533b52d46ec21a04ca24a0c38bcdb962, type: 2}
+  m_wallPrefab: {fileID: 1344450781923156, guid: fed580bcbf6e5014c85aa90d28111b2d,
+    type: 2}
+  m_tileSize: 1
+  m_width: 30
+  m_height: 30
+  m_pathWidth: 2
+  m_cratePrefab: {fileID: 1020730130010128, guid: 5b5e4e55077efac4e921d323e6b71264,
+    type: 2}
+  m_keyPrefab: {fileID: 1911429647386008, guid: 928b5a90f6cd7da4ca343b71ced15592,
+    type: 2}
+  m_minNumberOfRooms: 6
+  m_maxNumberOfRooms: 12
+  m_minRoomSize: 3
+  m_maxRoomSize: 5
+  m_enemyPrefab: {fileID: 1344450781923156, guid: f490408b80184c145afd63b8475637e4,
+    type: 2}
+  m_playerPrefab: {fileID: 1067062108086972, guid: 3e7c3be585ccd7e4e95502d7be6b3ffb,
+    type: 2}
+--- !u!114 &114627734780877992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1108458910149618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be42e8c8e580f8e4c98fa62087e82f09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_startTile:
+    m_tilePosition: {x: 0, y: 0}
+    m_pathCost: 0
+    m_tileDistance: 0
+  m_endTile:
+    m_tilePosition: {x: 0, y: 0}
+    m_pathCost: 0
+    m_tileDistance: 0

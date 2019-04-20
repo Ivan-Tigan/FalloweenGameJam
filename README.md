@@ -4,3 +4,8 @@ Hack'n'slash your way through creepy monsters that lurk in the dark dungeon - fi
 Made in Unity.<br>
 Programming was done in C# by me and my teammate - Tim Howes.<br>
 The art was created by my other teammate - Charlotte Barnes.
+
+## Gameplay:
+![image 1](relative/path/to/img.jpg?raw=true "Find the key to unlock the door to advance down the dungeon...")
+![image 2](relative/path/to/img.jpg?raw=true "Find the skull and sacrifice it in the dark pit...")
+![image 3](relative/path/to/img.jpg?raw=true "Be wary of the dangerous monsters!")
